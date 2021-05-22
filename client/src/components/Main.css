@@ -9,18 +9,18 @@
 }
 
 .main-container a {
-text-decoration: underline;
-text-underline-offset: .2em;
+   text-decoration: underline;
+   text-underline-offset: .2em;
 }
 
 .main-container a:hover {
-color: var(--c-ppal);
+   color: var(--c-ppal);   
 }
 
 .main-container a:focus {
-outline: 2px dashed var(--c-ppal);
-outline-offset: .1em;
-text-decoration: none;
+   outline: 2px dashed var(--c-ppal);
+   outline-offset: .1em;
+   text-decoration: none;
 }
 
 .contenedor-texto {

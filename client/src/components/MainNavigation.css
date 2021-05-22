@@ -56,3 +56,8 @@
        margin-bottom: 1rem;
     }
  }
+
+ .main-nav{
+   display: flex;
+   align-items: center;
+ }

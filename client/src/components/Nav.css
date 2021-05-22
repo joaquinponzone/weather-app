@@ -48,22 +48,22 @@ nav h1 {
 }
 
 .switch {
-display: inline-block;
-height: 34px;
-position: relative;
-width: fit-content;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  position: relative;
+  width: fit-content;;
 }
 @media screen and (max-width: 700px) {
-.switch{
-  height: fit-content;
-  width: fit-content;
-}
+  .switch{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
 }
 
-.switch input {
-  display:none;
-  padding-left: 1rem;
-}
+
 
 .slider {
   background-color: rgba(204, 204, 204, 0.598);
