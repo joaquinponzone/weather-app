@@ -6,7 +6,7 @@ export default function Cards({cities, onClose}) {
       if(cities.length < 1) {
          return(
             <>
-            <h2>Bienvenido a Weather App</h2>
+            <h2>Bienvenido a <span>Weather App</span></h2>
             {/* <p>Ingresa una ciudad en el buscador y obtén sus datos meteorológicos.</p> */}
             </>
          )
