@@ -2,10 +2,10 @@
 Simple Weather App consumig data from external API
 
 
-before run :
+to run :
 > npm install
 
 
-to run :
+and :
 > npm start
 
