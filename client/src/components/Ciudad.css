@@ -1,0 +1,14 @@
+.back-button{
+    font-family: 'Nunito', 'Montserrat', Arial, sans-serif;
+}
+
+.ciudad{
+    max-width: 18rem;
+    height: 100%; /* Para que crezca lo que necesita y no se estire si hay al lado una tarjeta más alta */
+    border-radius: 0.5em;
+    background: rgba(211, 211, 211, 0.35);
+    padding: 1em 2em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: transform 0.1s linear, box-shadow 0.1s linear;
+}

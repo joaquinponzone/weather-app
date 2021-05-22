@@ -1,0 +1,10 @@
+.app {
+    position: relative;
+    z-index: 2;
+    /* Para que no haya conflictos con la semitransparencia de #root en index.css */
+ }
+
+ .app nav{
+   /* background: rgb(112,112,112);
+   background: linear-gradient(180deg, rgba(136, 136, 136, 0.8) 0%, rgba(186, 186, 186, 0.4) 60%); */
+ }

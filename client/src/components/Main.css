@@ -1,0 +1,38 @@
+.main-container {
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   margin: 3em auto;
+   line-height: 1.8;
+}
+
+.main-container a {
+text-decoration: underline;
+text-underline-offset: .2em;
+}
+
+.main-container a:hover {
+color: var(--c-ppal);
+}
+
+.main-container a:focus {
+outline: 2px dashed var(--c-ppal);
+outline-offset: .1em;
+text-decoration: none;
+}
+
+.contenedor-texto {
+max-width: 60ch;
+}
+
+main p + p {
+   margin-top: 1em;
+}
+
+@media screen and (max-width: 700px) {
+   .main-container {
+      margin-top: 1em;
+      width: 100%;
+      padding: 0 3em;
+   }
+}

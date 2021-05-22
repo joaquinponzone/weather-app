@@ -1,0 +1,66 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  border-radius: 0.5em;
+  border: 2px solid rgba(245, 245, 245, 0.687);
+  background: rgba(211, 211, 211, 0.35);
+  color: whitesmoke;
+  padding: 1em 2em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  transform: translateY(0);
+  transition: transform 0.1s linear, box-shadow 0.1s linear;
+}
+
+.card:hover {
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.075);
+}
+
+.card__closeButton {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  border-radius: 0.4em;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  padding: 0.7em 1em 0.6em; /* Para centrar bien la X en el botón. */
+  line-height: 1; /* Con Nunito queda descentrada. */
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  transition: all 0.1s ease;
+}
+
+.card__closeButton:hover {
+  background: rgba(232, 47, 47, 0.529);
+}
+
+.card__closeButton:focus {
+  outline: 2px dashed var(--c-ppal);
+  outline-offset: 0.2em;
+}
+
+.card__title {
+  max-width: 14ch;
+  line-height: 1.2;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.card__info {
+  display: flex;
+
+}
+
+.card__info > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__infoButton{
+   font-family: 'Nunito', 'Montserrat', Arial, sans-serif;
+
+}
