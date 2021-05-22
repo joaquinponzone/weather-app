@@ -8,7 +8,6 @@ function Nav({ onSearch, themeToggler, theme }) {
 	return (
 		<nav>
 			<div className='container'>
-				{/* <button class="switch" onClick={themeToggler} className='form'>{theme === 'light' ? 'Dark Mode' : 'Light Mode'}</button> */}
 
 				{/* <div class="theme-container">
 					<p>{theme === 'dark' ? 'Light Mode' : 'Dark Mode'}</p>
@@ -21,7 +20,7 @@ function Nav({ onSearch, themeToggler, theme }) {
 				<h1 className='brand'>
 					<Link to='/'>{'Weather App'}</Link>
 				</h1>
-				<MainNavigation />
+				<MainNavigation themeToggler={themeToggler} theme={theme}/>
 				<SearchBar onSearch={onSearch} />
 			</div>
 		</nav>

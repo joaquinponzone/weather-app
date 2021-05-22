@@ -1,6 +1,8 @@
 .main-container {
    display: flex;
    justify-content: center;
+   align-items: center;
+   flex-direction: column;
    width: 90%;
    margin: 3em auto;
    line-height: 1.8;
@@ -22,7 +24,10 @@ text-decoration: none;
 }
 
 .contenedor-texto {
-max-width: 60ch;
+   max-width: 60ch;
+   background-color: rgba(205, 205, 205, 0.6);
+   border-radius: 20px;
+   padding: 1rem;
 }
 
 main p + p {
